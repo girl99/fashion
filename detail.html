@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet/less" href="css/style.css" />
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/less.min.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/jquery.jqzoom.js"></script>
+		<script src="js/jquery.thickbox.js"></script>
+		
+	</head>
+	<body>
+		<!--header开始-->
+		<header>
+			<div class="logo mb30"><a href="index.html"><img src="img/logo.png" alt="" /></a></div>
+			<nav>
+				<ul class="clearfix">
+					<li><a href="" class="active">首页</a></li>
+					<li><a href="">衬衫</a></li>
+					<li><a href="">卫衣</a></li>
+					<li><a href="">裤子</a></li>
+					<li><a href="">联系我们</a></li>
+				</ul>
+			</nav>
+			<p><i>Jane /</i> 男士</p>
+		</header>
+		<div class="main">
+			<div class="pro_detail clearfix pb50">
+				<div class="pro_detail_left fl clearfix">
+					<ul class="imgList">
+						<li class="border"><img src="img/w_one.jpg" alt="" /></li>
+						<li><img src="img/w_two.jpg" alt="" /></li>
+						<li><img src="img/w_three.jpg" alt="" /></li>
+					</ul>	
+					<div class="jqzoom">
+		                 <img src="img/w_one_big.jpg" name="bigImg" class="fs" id="bigImg" jqimg="img/w_one_big.jpg" />
+		            </div>														
+				</div>
+				<div class="pro_detail_right fr">
+					<h4>免烫高支棉条纹衬衣</h4>					
+					<p class="unit_money">￥<strong>200</strong><del>300</del></p>
+					<p class="p_number"><strong>编号：33313993</strong></p>
+					<div class="color_change">
+						<p class="p_color">颜色：<strong>蓝白</strong></p>
+						<ul class="clearfix" id="choose_color">
+							<li><img src="img/w_one.jpg" alt="蓝" /></li>
+							<li class="border"><img src="img/w_two.jpg" alt="白" /></li>							
+						</ul>
+					</div>
+					<div class="pro_size">
+						<p class="p_size">尺寸：<strong>未选择</strong></p>
+						<ul class="clearfix">
+							<li class="border"><span>S</span></li>
+							<li><span>L</span></li>
+							<li><span>SL</span></li>
+							<li><span>LL</span></li>
+						</ul>
+					</div>
+					<div class="pro_wrap clearfix">
+						<div class="pro_num ">
+						<span class="nums">数量：</span>
+							<select id="num_sort">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+					    </div>	
+						<div id="cart">
+							<a href="javascript:void(0)" id="put_cart">放入购物车</a>
+						</div>
+					</div>
+					<div class="pro_rating clearfix">
+						<p>给商品评分：</p>
+						<ul id="rating" class="rating clearfix">
+							<li class="rating-item" title="1"></li>
+							<li class="rating-item" title="2"></li>
+							<li class="rating-item" title="3"></li>
+							<li class="rating-item" title="4"></li>
+							<li class="rating-item" title="5"></li>
+						</ul>
+					</div>
+					<div class="pro_price">
+						总计：<span>200</span>元
+					</div>
+					<a href="javascript:void(0)" class="media_buy">立即购买</a>
+					<!--弹出窗口-->
+					<div class="alert_win">
+						<div class="alert_infor">
+							<h1>Jane</h1>
+							<h3>免烫高支棉条纹衬衣</h3>
+							<p>谢谢惠顾！</p>
+							<p>您给此商品的评分为：<span>0</span>分</p>
+						</div>
+						<div class="answer" id="answer">
+							<a href="javascript:void(0)">知道了</a>
+							<a href="javascript:void(0)">好的</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab">
+				<div class="tab_menu">
+					<ul class="clearfix">
+						<li><span class="cur">描述</span></li>
+						<li><span>属性</span></li>
+						<li><span>尺码表</span></li>
+						<li><span>介绍</span></li>
+					</ul>
+				</div>
+				<div class="tab_box">
+					<div>全新精品高支棉衬衫再次提升品质，精选100%新疆长绒棉织造而成，平整度好，短绒少； 80-100高支双股经纬交织，带来无与伦比的舒适享受；而且面料反光效果好，具有漂亮的光泽，质感上佳，有利于免烫效果的维持。※不仅如此，深受消费者欢迎的经典款式使精品高支棉衬衫更贴合东方人身型气质，多款衬衫还采用简单且个性鲜明条纹元素，利用最为单纯的几何线条，透过条纹的粗细、宽窄间的重组，带出令人耳目一新的时尚气息，更显出俊朗男士的挺拔身型！ 
+					</div>
+					<div class="hide">
+					用风靡百年的经典全棉牛津纺面料，通过领先的液氨整理技术，使面料的抗皱性能更上一层。延续简约、舒适、健康设计理念，特推出免烫、易打理的精细免烫牛津纺长袖衬衫系列。
+                    </div>
+					<div class="hide">
+					来自新疆无污染的生态棉花，采用紧密纺精梳棉纱，单经双纬的织造组织，造就了颗粒饱满、朴实无华、温润细腻的经典牛津纺，易洗快干、手感丰软、吸湿性好。设计师遵循布料完美肌理，立体剪裁，以直筒明门襟的经典造型、配合圆袋、曲摆的现代人性化裁减，相得益彰，浑然天成。色彩明快的纯色衬衫简洁、自然、为您营造出利落、爽朗的形象，透出热情、优雅的个性；精选白、蓝、淡粉、宽条纹、英国格等10余种明亮、经典花型，色彩缤纷呈现，以适合本季着装，更显自然、舒适境界。
+					</div>
+					<div class="hide">
+					界权威德国科德宝的衬和英国高士缝纫线使成衣领型自然舒展、永不变形，缝线部位平服工整、牢固耐磨；人性化的4片式后背打褶结构设计提供更舒适的活动空间；领尖扣的领型设计戴或不戴领带风格炯同、瞬间呈现；醇正天然设计，只为彰显自然荣耀。
+					</div>
+				</div>
+			</div>
+		    <section class="hot_sell mb20">
+		    	<h3>本店热卖</h3>
+		    	<div class="hot_wrap hotone">
+		    		<ul class="hot_shirt clearfix">
+		    			<li><img src="img/c1.jpg" alt="" /></li>
+		    			<li><img src="img/c2.jpg" alt="" /></li>
+		    			<li><img src="img/c3.jpg" alt="" /></li>
+		    			<li><img src="img/c4.jpg" alt="" /></li>
+		    			
+		    		</ul>		    		
+		    	</div>		    	
+		    </section>
+		    <section class="may_like mb50">
+		    	<h3>猜你喜欢</h3>
+		    	<div class="hot_wrap hottwo">
+		    		<ul class="hot_shirt clearfix">
+		    			<li><img src="img/c5.jpg" alt="" /></li>
+		    			<li><img src="img/c6.jpg" alt="" /></li>
+		    			<li><img src="img/c7.jpg" alt="" /></li>
+		    			<li><img src="img/c8.jpg" alt="" /></li>		    			
+		    		</ul>		    		
+		    	</div>		    	
+		    </section>
+		</div>
+		<!--footer开始-->
+		<footer>
+	    	<p class="mb30">JANE  SHOPING ,更多优惠产品，不容错过！</p>	    	
+	    	<div class="subnav clearfix">
+	    		<ul>
+	    			<li>购物指南</li>
+	    			<li><a href="#">网上购买</a></li>
+	    			<li><a href="#">订单追踪</a></li>
+	    			<li><a href="#">如何成为VIP</a></li>
+	    		</ul>
+	    		<ul>
+	    			<li>探索</li>
+	    			<li><a href="#">免烫高织棉衬衣</a></li>
+	    			<li><a href="#">免烫斜纹衬衣</a></li>
+	    			<li><a href="#">棉小方格正装衬衣</a></li>
+	    		</ul>
+	    		<ul>
+	    			<li>关于我们</li>
+	    			<li><a href="#">关于Jane Shopping</a></li>
+	    			<li><a href="#">门店地址</a></li>	    			
+	    		</ul>
+	    		<ul>
+	    			<li>联系我们</li>
+	    			<li><a href="#">在线客服</a></li>
+	    			<li><a href="#">向我们发送Email</a></li>	    			
+	    		</ul>
+	    		<ul>
+	    			<li>输入您的电子邮箱</li>
+	    			<li><a href="#">获取Jane Shopping的最新消息</a></li>
+	    			<li><input type="email" placeholder="请输入邮箱地址"/></li>	    			
+	    		</ul>
+	    	</div>
+	    	<p class="copyright">月月齐商业（上海）有限公司 沪ICP备14016998号-1</p>
+	   </footer>
+	    <div class="modal">
+            <h4>商品已成功放入购物车啦！</h4>
+            <p class="modal_title"></p>
+            <p class="modal_title2">shirt</p>
+            <p class="modal_infor">
+	                       颜色: <span class="modal_color"></span> /
+	                        尺寸: <span class="modal_size"></span> /
+	                        数量: <span class="modal_numbers">1</span>
+            </p>
+            <p class="gobuy clearfix">
+                <a href="javascript:void (0)">返回</a>
+                <a href="javascript:void (0)">去结算</a>
+            </p>
+        </div>
+        <div class="body_cover"></div>
+	</body>
+</html>
